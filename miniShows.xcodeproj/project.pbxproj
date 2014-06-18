@@ -21,6 +21,10 @@
 		3F3012911951CEA900012C62 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3012731951CEA900012C62 /* UIKit.framework */; };
 		3F3012991951CEA900012C62 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F3012971951CEA900012C62 /* InfoPlist.strings */; };
 		3F30129B1951CEA900012C62 /* miniShowsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F30129A1951CEA900012C62 /* miniShowsTests.m */; };
+		3F3012A61951CF3B00012C62 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3012A51951CF3B00012C62 /* CustomTableViewCell.m */; };
+		3F3012A91951D3BA00012C62 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3012A81951D3BA00012C62 /* DetailViewController.m */; };
+		3F3012AC1951D3C300012C62 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3012AB1951D3C300012C62 /* SettingsViewController.m */; };
+		3F3012AF1951D3FD00012C62 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3012AE1951D3FD00012C62 /* MenuTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,14 @@
 		3F3012961951CEA900012C62 /* miniShowsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "miniShowsTests-Info.plist"; sourceTree = "<group>"; };
 		3F3012981951CEA900012C62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3F30129A1951CEA900012C62 /* miniShowsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = miniShowsTests.m; sourceTree = "<group>"; };
+		3F3012A41951CF3B00012C62 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		3F3012A51951CF3B00012C62 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		3F3012A71951D3BA00012C62 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		3F3012A81951D3BA00012C62 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		3F3012AA1951D3C300012C62 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		3F3012AB1951D3C300012C62 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		3F3012AD1951D3FD00012C62 /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
+		3F3012AE1951D3FD00012C62 /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +129,14 @@
 				3F3012811951CEA900012C62 /* Main.storyboard */,
 				3F3012841951CEA900012C62 /* ViewController.h */,
 				3F3012851951CEA900012C62 /* ViewController.m */,
+				3F3012A41951CF3B00012C62 /* CustomTableViewCell.h */,
+				3F3012A51951CF3B00012C62 /* CustomTableViewCell.m */,
+				3F3012A71951D3BA00012C62 /* DetailViewController.h */,
+				3F3012A81951D3BA00012C62 /* DetailViewController.m */,
+				3F3012AD1951D3FD00012C62 /* MenuTableViewController.h */,
+				3F3012AE1951D3FD00012C62 /* MenuTableViewController.m */,
+				3F3012AA1951D3C300012C62 /* SettingsViewController.h */,
+				3F3012AB1951D3C300012C62 /* SettingsViewController.m */,
 				3F3012871951CEA900012C62 /* Images.xcassets */,
 				3F3012761951CEA900012C62 /* Supporting Files */,
 			);
@@ -249,8 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F3012A91951D3BA00012C62 /* DetailViewController.m in Sources */,
 				3F3012861951CEA900012C62 /* ViewController.m in Sources */,
 				3F3012801951CEA900012C62 /* AppDelegate.m in Sources */,
+				3F3012AC1951D3C300012C62 /* SettingsViewController.m in Sources */,
+				3F3012A61951CF3B00012C62 /* CustomTableViewCell.m in Sources */,
+				3F3012AF1951D3FD00012C62 /* MenuTableViewController.m in Sources */,
 				3F30127C1951CEA900012C62 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
